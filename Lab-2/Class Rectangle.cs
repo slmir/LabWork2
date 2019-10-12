@@ -14,14 +14,17 @@ namespace Lab_2
 			{
 				this.high = hg;
 				this.wdth = wd;
-				this.Type = "Прямоугольник";
 			}
 			public override double Area()//переопределнный метод вычисления площади
 			{
-				double S = this.wdth * this.high;
+				double S = Math.Round(this.wdth * this.high,4);//переопределение функции нахождения площади круга с точностью до 4-ого знака после запятой
 				return S;
 			}
-			public void Print()//метод печати данных об объекте
+			public override string ToString()//переопределение виртуального метода вывода данных об объекте
+			{
+				return "Прямоугольник площадью " + this.Area().ToString();
+			}
+		public void Print()//метод печати данных об объекте
 			{
 				Console.WriteLine(this.ToString());
 			}

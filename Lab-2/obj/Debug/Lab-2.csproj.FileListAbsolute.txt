@@ -4,3 +4,4 @@ C:\Users\Вячеслав\Documents\Lab_work_BKIT_1_2\Lab-2\bin\Debug\Lab-2.exe
 C:\Users\Вячеслав\Documents\Lab_work_BKIT_1_2\Lab-2\bin\Debug\Lab-2.pdb
 C:\Users\Вячеслав\Documents\Lab_work_BKIT_1_2\Lab-2\obj\Debug\Lab-2.exe
 C:\Users\Вячеслав\Documents\Lab_work_BKIT_1_2\Lab-2\obj\Debug\Lab-2.pdb
+C:\Users\Вячеслав\Documents\Lab_work_BKIT_1_2\Lab-2\obj\Debug\Lab-2.csprojAssemblyReference.cache

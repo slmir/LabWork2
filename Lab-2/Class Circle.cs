@@ -13,12 +13,15 @@ namespace Lab_2
 		public Circle(double rad)//конструктор
 		{
 			this.radius = rad;
-			this.Type = "Круг";
 		}
 		public override double Area()//переопределяем метод вычисления площади
 		{
-			double S = Math.Pow(this.radius, 2) * PI;
+			double S = Math.Round( Math.Pow(this.radius, 2) * Math.PI,4);//переопределение функции нахождения площади круга с точностью до 4-ого знака после запятой
 			return S;
+		}
+		public override string ToString()//переопределение виртуального метода вывода данных об объекте
+		{
+			return "Круг площадью " + this.Area().ToString();
 		}
 		public void Print()//вывод данных об объекте
 		{

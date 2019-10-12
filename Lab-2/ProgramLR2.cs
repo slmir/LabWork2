@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
+	/// <summary>
+	/// Version 1.0
+	/// </summary>
 	class ProgramLR2
 	{ 
 			static void Main(string[] args)
