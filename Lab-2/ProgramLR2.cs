@@ -8,6 +8,7 @@ namespace Lab_2
 {
 	/// <summary>
 	/// Version 1.0.6
+	/// 
 	/// </summary>
 	class ProgramLR2
 	{ 
